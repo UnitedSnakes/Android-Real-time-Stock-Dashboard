@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">JSONFetcherDemo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Home</string>
+    <string name="second_fragment_label">Json Data</string>
+    <string name="retrieve">Retrieve</string>
+    <string name="previous">Previous</string>
+    <string name="greetings">Good Day!</string>
+
+    <string name="guidance">
+        Click \"Retrieve\" to retrieve the data from\n\nhttps://fetch-hiring.s3.amazonaws.com/hiring.json\n\nIt might take several seconds to load the data.
+    </string>
+
+    <string name="tech">
+        Interesting facts:\n\n-    Used SQLite for data storage\n\n-    Implemented retry logic for Internet connection errors
+    </string>
+    <string name="name">name</string>
+    <string name="listId">listId</string>
+    <string name="page_number_loading">loading...</string>
+    <string name="page_number_text">%d</string>
+    <string name="go_to_page">Go To Page</string>
+    <string name="previous_page">Previous Page</string>
+    <string name="next_page">Next Page</string>
+    <string name="enter_page_number">Enter page number: </string>
+    <string name="jump">Jump</string>
+    <string name="cancel">Cancel</string>
+    <string name="invalid_page_number">Invalid page number</string>
+    <string name="go_to_previous_page">go to previous page</string>
+    <string name="go_to_next_page">go to next page</string>
+    <string name="go_to_first_page">go to first page</string>
+    <string name="go_to_last_page">go to last page</string>
+    <string name="already_on_last_page">Already on last page</string>
+    <string name="already_on_first_page">Already on first page</string>
+</resources>
