@@ -24,7 +24,7 @@ import com.example.android_take_home_exercise_shanglin_yang.data.SecondViewModel
 import com.example.android_take_home_exercise_shanglin_yang.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment() {
-    private var _binding: FragmentSecondBinding? = null
+    private var binding: FragmentSecondBinding? = null
     private val adapter = RecyclerViewAdapter()
     private lateinit var viewModel: SecondViewModel
     private var pageNumberTextView: TextView? = null
@@ -38,10 +38,10 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        _binding = FragmentSecondBinding.inflate(inflater, container, false)
-        _binding?.recyclerView?.layoutManager = LinearLayoutManager(context)
-        _binding?.recyclerView?.adapter = adapter
-        return _binding!!.root
+        binding = FragmentSecondBinding.inflate(inflater, container, false)
+        binding?.recyclerView?.layoutManager = LinearLayoutManager(context)
+        binding?.recyclerView?.adapter = adapter
+        return binding!!.root
     }
 
 
@@ -189,6 +189,6 @@ class SecondFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        _binding = null
+        binding = null
     }
 }

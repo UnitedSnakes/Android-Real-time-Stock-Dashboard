@@ -8,13 +8,9 @@
     <string name="previous">Previous</string>
     <string name="greetings">Good Day!</string>
 
-    <string name="guidance">
-        Click \"Retrieve\" to retrieve the data from\n\nhttps://fetch-hiring.s3.amazonaws.com/hiring.json\n\nIt might take several seconds to load the data.
-    </string>
+    <string name="guidance">Click "RETRIEVE"\ to retrieve the data from <a href="https://raw.githubusercontent.com/UnitedSnakes/JSONFetcherDemo/main/app/src/main/assets/example.json">here</a>. Credits to Fetch Rewards for the JSON dataset. It might take several seconds to load the data.</string>
 
-    <string name="tech">
-        Interesting facts:\n\n-    Used SQLite for data storage\n\n-    Implemented retry logic for Internet connection errors
-    </string>
+    <string name="tech">For additional info, please go <a href="https://github.com/UnitedSnakes/JSONFetcherDemo/blob/main/README.md">here</a>.</string>
     <string name="name">name</string>
     <string name="listId">listId</string>
     <string name="page_number_loading">loading...</string>

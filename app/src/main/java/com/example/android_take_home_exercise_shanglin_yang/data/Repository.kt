@@ -23,7 +23,7 @@ class Repository (context: Context) {
         applicationScope.launch {
             // credits to Fetch Rewards for the JSON dataset
             // val jsonString = networkClient.performRequest("https://fetch-hiring.s3.amazonaws.com/hiring.json")
-            val jsonString = networkClient.performRequest("https://github.com/UnitedSnakes/JSONFetcherDemo/blob/main/app/src/main/AndroidManifest.xml")
+            val jsonString = networkClient.performRequest("https://raw.githubusercontent.com/UnitedSnakes/JSONFetcherDemo/main/app/src/main/assets/example.json")
 
             // Asynchronously call insertData
             withContext(Dispatchers.IO) {
