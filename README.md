@@ -1,7 +1,10 @@
-An app that retrieves online .json data.
+A Kotlin-based Android app that retrieves online .json data.
 
 Interesting facts:
 
+- Based on MVVM architecture
 - Used SQLite for data storage
-- Implemented retry logic for Internet connection errors
-- Tried to implement browse-in-pages function but failed. Bugs are to be fixed. A success but less user-friendly implementation can be found at master branch.
+- Utilized dispatchers (coroutines) with retry logic for OkHttp network requests
+- Supported browse-in-pages function since v1.1
+- Fine-tuned RecyclerView. Overrided DiffUtil class since v1.1
+- I self-learned all these stuff !! Wanna sleep more o.o => 0.0
