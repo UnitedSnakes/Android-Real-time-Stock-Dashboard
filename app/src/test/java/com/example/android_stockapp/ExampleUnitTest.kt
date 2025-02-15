@@ -1,4 +1,4 @@
-package com.example.android_jsonfetcher
+package com.example.android_stockapp
 
 import org.junit.Test
 

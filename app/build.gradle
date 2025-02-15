@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.android_jsonfetcher'
+    namespace 'com.example.android_stockapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.android_jsonfetcher"
+        applicationId "com.example.android_stockapp"
         minSdk 33
         targetSdk 33
         versionCode 2
@@ -48,5 +48,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2'
+    implementation 'org.java-websocket:Java-WebSocket:1.5.3'
+    implementation 'com.robinhood.spark:spark:1.2.0'
 
 }
