@@ -1,4 +1,4 @@
-package com.example.android_take_home_exercise_shanglin_yang
+package com.example.android_jsonfetcher
 
 import org.junit.Test
 

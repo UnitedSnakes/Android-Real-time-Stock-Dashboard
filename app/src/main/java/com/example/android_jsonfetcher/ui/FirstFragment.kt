@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.ui
+//FirstFragment.kt
+
+package com.example.android_jsonfetcher.ui
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,8 +8,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.android_take_home_exercise_shanglin_yang.R
-import com.example.android_take_home_exercise_shanglin_yang.databinding.FragmentFirstBinding
+import com.example.android_jsonfetcher.R
+import com.example.android_jsonfetcher.databinding.FragmentFirstBinding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.

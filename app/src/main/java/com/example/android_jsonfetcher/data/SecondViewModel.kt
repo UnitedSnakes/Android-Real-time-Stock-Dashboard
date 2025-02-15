@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.data
+//SecondViewModel.kt
+
+package com.example.android_jsonfetcher.data
 
 import android.database.sqlite.SQLiteDatabase
 import androidx.lifecycle.LiveData

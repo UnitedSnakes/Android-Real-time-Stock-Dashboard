@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.ui
+//SecondFragment.kt
+
+package com.example.android_jsonfetcher.ui
 
 import android.app.AlertDialog
 import android.content.Context
@@ -17,11 +19,11 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.android_take_home_exercise_shanglin_yang.R
-import com.example.android_take_home_exercise_shanglin_yang.data.Repository
-import com.example.android_take_home_exercise_shanglin_yang.data.SecondViewModel
-import com.example.android_take_home_exercise_shanglin_yang.data.SecondViewModelFactory
-import com.example.android_take_home_exercise_shanglin_yang.databinding.FragmentSecondBinding
+import com.example.android_jsonfetcher.R
+import com.example.android_jsonfetcher.data.Repository
+import com.example.android_jsonfetcher.data.SecondViewModel
+import com.example.android_jsonfetcher.data.SecondViewModelFactory
+import com.example.android_jsonfetcher.databinding.FragmentSecondBinding
 
 class SecondFragment : Fragment() {
     private var binding: FragmentSecondBinding? = null

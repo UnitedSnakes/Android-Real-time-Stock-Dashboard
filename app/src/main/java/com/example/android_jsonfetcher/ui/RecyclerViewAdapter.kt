@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.ui
+//RecyclerViewAdapter.kt
+
+package com.example.android_jsonfetcher.ui
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,8 +8,8 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.android_take_home_exercise_shanglin_yang.data.Item
-import com.example.android_take_home_exercise_shanglin_yang.R
+import com.example.android_jsonfetcher.data.Item
+import com.example.android_jsonfetcher.R
 
 class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>() {
 
@@ -34,8 +36,9 @@ class RecyclerViewAdapter : RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>
             }
 
             override fun areContentsTheSame(oldItemPosition: Int, newItemPosition: Int): Boolean {
-                // Assuming the content is entirely replaced, always return false
-                return false
+                val oldItem = oldList[oldItemPosition]
+                val newItem = newList[newItemPosition]
+                return oldItem == newItem
             }
         })
     }

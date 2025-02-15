@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<!--    <style name="Base.Theme.Android_Take_Home_Exercise_Shanglin_Yang" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--    <style name="Base.Theme.Android_JSONFetcher" parent="Theme.Material3.DayNight.NoActionBar">-->
 <!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
 <!--&lt;!&ndash;         <item name="colorPrimary">@color/</item>&ndash;&gt;-->
 <!--    </style>-->
 
-    <style name="Theme.Android_Take_Home_Exercise_Shanglin_Yang" parent="Theme.AppCompat.DayNight.NoActionBar" />
+    <style name="Theme.Android_JSONFetcher" parent="Theme.AppCompat.DayNight.NoActionBar" />
 </resources>

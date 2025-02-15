@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.data
+//DatabaseManager.kt
+
+package com.example.android_jsonfetcher.data
 
 import android.content.ContentValues
 import android.content.Context

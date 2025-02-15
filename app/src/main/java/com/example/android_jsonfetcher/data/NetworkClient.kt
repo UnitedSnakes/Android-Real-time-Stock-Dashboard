@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.data
+//NetworkClient.kt
+
+package com.example.android_jsonfetcher.data
 
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext

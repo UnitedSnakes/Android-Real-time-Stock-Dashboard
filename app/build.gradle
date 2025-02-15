@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.android_take_home_exercise_shanglin_yang'
+    namespace 'com.example.android_jsonfetcher'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.android_take_home_exercise_shanglin_yang"
+        applicationId "com.example.android_jsonfetcher"
         minSdk 33
         targetSdk 33
         versionCode 2

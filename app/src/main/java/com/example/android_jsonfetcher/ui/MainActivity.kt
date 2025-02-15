@@ -1,4 +1,6 @@
-package com.example.android_take_home_exercise_shanglin_yang.ui
+//MainActivity.kt
+
+package com.example.android_jsonfetcher.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +11,8 @@ import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
 import android.view.Menu
 import android.view.MenuItem
-import com.example.android_take_home_exercise_shanglin_yang.R
-import com.example.android_take_home_exercise_shanglin_yang.databinding.ActivityMainBinding
+import com.example.android_jsonfetcher.R
+import com.example.android_jsonfetcher.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

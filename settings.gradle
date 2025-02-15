@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Android_Take_Home_Exercise_Shanglin_Yang"
+rootProject.name = "JSONFetcher"
 include ':app'
