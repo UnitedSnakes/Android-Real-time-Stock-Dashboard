@@ -1,14 +1,23 @@
-# JSONFetcherApp
+# 📈 Android Real-time Stock Dashboard
 
-A simple Android app to evaluate architectural differences, implementing MVVM with Retrofit, Gson, and SQLite for paginated JSON retrieval. 
+An Android app that provides real-time stock market updates using WebSocket streaming and SparkView for data visualization.
 
-## Features
-- **MVVM Architecture**: Demonstrates superior state and lifecycle management over MVP and MVC.
-- **Efficient Pagination**: Uses SQLite to cache JSON data fetched via Retrofit.
-- **Optimized RecyclerView**: Implements a custom `DiffUtil.Callback`, reducing refresh overhead by 20-50ms.
+## 🚀 Features
+- **Real-time stock price updates** from multiple sources via WebSockets.
+- **Optimized UI rendering** using DiffUtil for smooth, lag-free experience.
+- **Efficient connection management** with WebSocket Ping/Pong to reduce reconnects.
+- **Data visualization** using SparkView for intuitive stock trend tracking.
 
-## Tech Stack
-- **Kotlin**
-- **Retrofit + Gson**
-- **SQLite**
-- **RecyclerView with DiffUtil**
+## 🛠 Tech Stack
+- **Language**: Kotlin
+- **Framework**: Android Jetpack (MVVM)
+- **Networking**: OkHttp + WebSocket
+- **Data Handling**: LiveData, ViewModel
+- **Visualization**: SparkView
+- **Optimization**: DiffUtil for RecyclerView
+
+## 📦 Installation
+1. Clone the repo:
+   `git clone https://github.com/yourusername/android-stock-dashboard.git`
+2. Open in Android Studio and sync dependencies.
+3. Run the app on an emulator or a physical device.
