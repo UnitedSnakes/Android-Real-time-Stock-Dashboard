@@ -18,6 +18,6 @@ An Android app that provides real-time stock market updates using WebSocket stre
 
 ## 📦 Installation
 1. Clone the repo:
-   `git clone https://github.com/UnitedSnakes/Android-Real-time-Stock-Dashboard`
+   `git clone https://github.com/UnitedSnakes/Android-Real-time-Stock-Dashboard.git`
 2. Open in Android Studio and sync dependencies.
 3. Run the app on an emulator or a physical device.
