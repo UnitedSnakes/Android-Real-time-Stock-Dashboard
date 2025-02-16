@@ -2,12 +2,6 @@
 
 An Android app that provides real-time stock market updates using WebSocket streaming and SparkView for data visualization.
 
-## 🚀 Features
-- **Real-time stock price updates** from multiple sources via WebSockets.
-- **Optimized UI rendering** using DiffUtil for smooth, lag-free experience.
-- **Efficient connection management** with WebSocket Ping/Pong to reduce reconnects.
-- **Data visualization** using SparkView for intuitive stock trend tracking.
-
 ## 🛠 Tech Stack
 - **Language**: Kotlin
 - **Framework**: Android Jetpack (MVVM)
